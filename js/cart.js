@@ -1,6 +1,6 @@
 	
 $(document).ready(function() {
-  fetch('http://localhost:8080/cart.json')
+  fetch('https://vinaykk22.github.io/shopping/cart.json')
     // Handle success
     .then(response => response.json())  // convert to json
 	.then(function(data) {
